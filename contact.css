@@ -1,0 +1,41 @@
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:aqua;
+	background-image: url(images/slove.jpg);
+    background-size: cover;
+     }
+	 .appel{
+		 color: white;
+		display: flex;
+		text-align: center;
+	 }
+	 .appel span{
+		 color: white;
+	 }
+	 
+	 #contact h3 span {
+		color: blue;
+		display: block;
+		font-size: 30px;
+		font-weight: 400;
+	}
+	.appels a{
+		color:blue;
+		padding: 30px;
+		background-color: antiquewhite;
+	}
+	@media screen and (max-width:680px){
+		.appels{
+			padding: 10px;
+			display: flex;
+			flex-direction: column;	
+		}
+		.appels a{
+			background-color: none;
+			padding: 0px;
+			background-color: none;
+		}
+	}
